@@ -1,10 +1,10 @@
-import { dragElement, ResizeHandler } from "../js/draggableCard.js";
-import { Alert } from "../js/Alert.js"
-import { CheckFirstVisit, PathfindingCookies } from "../js/Cookies.js";
-import { PageAlgorithm, DisplayAnnotation } from "../js/SetAlgorithm.js";
-import { AnimationController } from "../js/AnimationController.js";
-import { Table, Graph, DFSMaze, CellHandler } from "../js/PathfindingCanvas.js";
-import { debounce } from "../js/Utility.js";
+import { dragElement, ResizeHandler } from "./draggableCard.js";
+import { Alert } from "./Alert.js"
+import { CheckFirstVisit, PathfindingCookies } from "./Cookies.js";
+import { PageAlgorithm, DisplayAnnotation } from "./SetAlgorithm.js";
+import { AnimationController } from "./AnimationController.js";
+import { Table, Graph, DFSMaze, CellHandler } from "./PathfindingCanvas.js";
+import { debounce } from "./Utility.js";
 
 const alertContainer = document.getElementById('alertContainer')
 

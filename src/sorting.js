@@ -1,11 +1,11 @@
-import { dragElement, ResizeHandler } from "../js/draggableCard.js"
-import { Alert } from "../js/Alert.js"
-import { CheckFirstVisit } from "../js/Cookies.js"
-import { PageAlgorithm, DisplayAnnotation } from "../js/SetAlgorithm.js";
-import { AnimationController } from "../js/AnimationController.js";
-import { Input } from "../js/Input.js";
-import { debounce } from "../js/Utility.js";
-import SortingCanvas from "../js/SortingCanvas.js"
+import { dragElement, ResizeHandler } from "./draggableCard.js"
+import { Alert } from "./Alert.js"
+import { CheckFirstVisit } from "./Cookies.js"
+import { PageAlgorithm, DisplayAnnotation } from "./SetAlgorithm.js";
+import { AnimationController } from "./AnimationController.js";
+import { Input } from "./Input.js";
+import { debounce } from "./Utility.js";
+import SortingCanvas from "./SortingCanvas.js"
 
 CheckFirstVisit('sortVisited')
 

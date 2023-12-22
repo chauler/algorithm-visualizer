@@ -1,4 +1,4 @@
-import Cookies from "../js/js.cookie.min.mjs"
+import Cookies from "./js.cookie.min.mjs"
 
 let fontChange_px = 0
 let dark = false
